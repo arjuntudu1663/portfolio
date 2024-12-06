@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.parent {
+  background: white;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.parent[data-isOpen="true"] {
+  width: 400px;
+  height: 200px;
+}
+
+.child {
+  width: 140px;
+  height: 140px;
+  
+ 
+}
+
+.nameFont{
+  font-family: "DM Serif Text", serif;
+}
+
+.headerFont {
+  font-family: "Anton SC", sans-serif;
+}
+
+.descFont{
+  font-family: "Comfortaa", sans-serif;
+}
